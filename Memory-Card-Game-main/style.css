@@ -4,16 +4,18 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box
     font-family: 'Poppins', sans-serif;
 }
+
+
 
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: rgb(223, 125, 149);
+    background: url('images/background.png');
 }
 
 .card .front-view span {
@@ -22,8 +24,8 @@ body {
 }
 
 .wrapper {
-    padding: 25px;
-    border-radius: 10px;
+    padding: 20px;
+    border-radius: 20px;
     background: #F8F8F8;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
